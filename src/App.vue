@@ -126,6 +126,7 @@ const addTask = () => {
 				</button>
 				<button @click="deleteAllTasks" class="clear__all">Clear All</button>
 			</div>
+
 			<todo-task
 				@set-completion="setCompletion($event)"
 				@delete-task="deleteTask($event)"
